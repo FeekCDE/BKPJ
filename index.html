@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZentaCoin - The Meme Coin with Zen at its Heart</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">ZENTA<span>COIN</span></a>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="navbar-menu" id="navbarMenu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#tokenomics">Tokenomics</a>
+                <a href="#roadmap">Roadmap</a>
+                <button class="connect-wallet" id="connectWallet">Connect Wallet</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>The Meme Coin with <span>Zen</span> at its Heart</h1>
+                <p class="subtitle">Community-driven cryptocurrency merging mindfulness with moon missions</p>
+                <div class="cta-buttons">
+                    <button class="btn-primary">Buy $ZEN</button>
+                    <button class="btn-secondary">Join Community</button>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value">200M</div>
+                        <div class="stat-label">Total Supply</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">ZEN</div>
+                        <div class="stat-label">Symbol</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">6</div>
+                        <div class="stat-label">Decimals</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/500x500" alt="ZentaCoin Logo" class="coin-logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About ZentaCoin</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>The meme coin with Zen at its heart and its sights set on the moon. We are not here for a boring investment, therefore take the chance to be in the center of weight, luck and success with only one decision.</p>
+                    <p>We are a community oriented project and believe in a trustful area, where all winners are born - and you will follow!</p>
+                    <div class="features">
+                        <div class="feature-item">
+                            <i class="fas fa-lock"></i>
+                            <h3>Secure</h3>
+                            <p>Revoked mint and freeze authority</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Liquid</h3>
+                            <p>60% of supply in locked liquidity</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-users"></i>
+                            <h3>Community</h3>
+                            <p>Driven by holders, for holders</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/400x400" alt="About ZentaCoin">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section class="tokenomics" id="tokenomics">
+        <div class="container">
+            <h2 class="section-title">Tokenomics</h2>
+            <div class="tokenomics-grid">
+                <div class="chart-container">
+                    <div class="pie-chart" id="pieChart">
+                        <!-- Chart will be generated with JavaScript -->
+                    </div>
+                    <div class="chart-legend" id="chartLegend"></div>
+                </div>
+                <div class="token-details">
+                    <div class="detail-card">
+                        <h3>Advanced Security</h3>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Revoked Mint Authority</li>
+                            <li><i class="fas fa-check-circle"></i> Revoked Freeze Authority</li>
+                            <li><i class="fas fa-check-circle"></i> Immutable Metadata</li>
+                            <li><i class="fas fa-check-circle"></i> Burned/Locked LP</li>
+                        </ul>
+                    </div>
+                    <div class="detail-card">
+                        <h3>Liquidity</h3>
+                        <p><i class="fas fa-check-circle"></i> 60% of total supply added to liquidity pool</p>
+                        <p><i class="fas fa-check-circle"></i> Minimum €4000 initial liquidity</p>
+                        <p><i class="fas fa-check-circle"></i> Properly configured Min Order Size and Tick Size</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section class="roadmap" id="roadmap">
+        <div class="container">
+            <h2 class="section-title">Roadmap</h2>
+            <div class="roadmap-container">
+                <div class="phase completed">
+                    <div class="phase-header">
+                        <h3 class="phase-title">Phase 1: Launch</h3>
+                        <span class="phase-status">Completed</span>
+                    </div>
+                    <ul class="phase-items">
+                        <li>Token launch on Solana</li>
+                        <li>Initial liquidity provision</li>
+                        <li>Community building</li>
+                        <li>First 1000 holders</li>
+                    </ul>
+                </div>
+                <div class="phase current">
+                    <div class="phase-header">
+                        <h3 class="phase-title">Phase 2: Growth</hh3>
+                        <span class="phase-status">In Progress</span>
+                    </div>
+                    <ul class="phase-items">
+                        <li>CEX listings</li>
+                        <li>Marketing campaigns</li>
+                        <li>Partnerships</li>
+                        <li>NFT integration</li>
+                    </ul>
+                </div>
+                <div class="phase upcoming">
+                    <div class="phase-header">
+                        <h3 class="phase-title">Phase 3: Expansion</h3>
+                        <span class="phase-status">Coming Soon</span>
+                    </div>
+                    <ul class="phase-items">
+                        <li>Merchandise store</li>
+                        <li>Charity initiatives</li>
+                        <li>Zen meditation app integration</li>
+                        <li>5000+ holders</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buy Widget Section -->
+    <section class="buy-widget">
+        <div class="container">
+            <div class="widget-container">
+                <div class="widget-header">
+                    <h3>Buy $ZEN</h3>
+                    <p>1 ZEN = $0.0025</p>
+                </div>
+                <div class="input-group">
+                    <label for="amount">Amount to buy</label>
+                    <div class="input-wrapper">
+                        <input type="number" id="amount" placeholder="0.0">
+                        <button class="max-btn" id="maxBtn">MAX</button>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Slippage tolerance</label>
+                    <div class="slippage-tabs" id="slippageTabs">
+                        <button class="slippage-tab active" data-value="0.5">0.5%</button>
+                        <button class="slippage-tab" data-value="1.0">1.0%</button>
+                        <button class="slippage-tab" data-value="2.5">2.5%</button>
+                    </div>
+                </div>
+                <button class="buy-btn" id="buyBtn">Connect Wallet to Buy</button>
+                <div class="rate-info">
+                    <span>Estimated tokens:</span>
+                    <span id="estimatedTokens">0 ZEN</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="community">
+        <div class="container">
+            <h2 class="section-title">Join Our Community</h2>
+            <div class="social-links">
+                <a href="#" class="social-link telegram"><i class="fab fa-telegram"></i> Telegram</a>
+                <a href="#" class="social-link twitter"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#" class="social-link discord"><i class="fab fa-discord"></i> Discord</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">ZENTA<span>COIN</span></div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#tokenomics">Tokenomics</a>
+                    <a href="#roadmap">Roadmap</a>
+                </div>
+                <div class="footer-copy">
+                    <p>&copy; 2023 ZentaCoin. All rights reserved.</p>
+                    <p>The meme coin with Zen at its heart.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
