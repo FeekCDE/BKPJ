@@ -80,17 +80,20 @@ section {
 .btn-primary:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(108, 99, 255, 0.3);
+    font-size: larger;
 }
 
 .btn-secondary {
     background: transparent;
-    color: var(--primary);
+    color: white;
     border: 2px solid var(--primary);
 }
 
 .btn-secondary:hover {
     background: var(--primary);
     color: white;
+    font-weight: 600;
+    font-size: larger;
 }
 
 /* Navigation */
